@@ -1,5 +1,5 @@
 #!/bin/sh
 DATE=`date +%Y-%m-%d`
 
-mysqldump -uroot -h $MYSQL_HOST $MYSQL_TABLE \
+mysqldump -uroot -h $MYSQL_HOST $MYSQL_DATABASE \
   | mc pipe "storage/${S3_BUCKET}/blog-${DATE}.sql"
