@@ -13,3 +13,6 @@ Several environment variables are required:
 * `MYSQL_ROOT_PASSWORD`
 * `MYSQL_HOST`
 * `MYSQL_DATABASE`
+* `WEBHOOK_URL`
+
+(tbc)
